@@ -7,8 +7,8 @@ Create one reusable Downloader code for each URL at [go.aftvnews.com](https://go
 | Channel | Current version | APK URL |
 | --- | --- | --- |
 | Production baseline | 0.3.2 | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-prod/TVBud-FireTV.apk |
-| Development | 0.3.12 | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-current-test/TVBud-FireTV.apk |
+| Development | 0.3.13 | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-current-test/TVBud-FireTV.apk |
 
-The two asset URLs stay the same when their APKs are updated. The user confirmed Browser Manager HTTPS works. Version 0.3.12 adds a translucent half-screen or full-screen guide over playback, Select-to-open navigation, a working multiview Add screen flow, and Xtream movies and series catalogs. The bottom playback dock is removed. Provider playback and the new TV layout still need Fire Stick testing. The production baseline still needs full Fire Stick testing. TiviMate `.tmb` backup import is not yet supported.
+The two asset URLs stay the same when their APKs are updated. The user confirmed Browser Manager HTTPS works. Version 0.3.13 adds multiview templates: four equal, one large above three/four/five, two stacked halves, and two side-by-side halves. Empty tiles open the channel guide. Blue focus outlines fit within tile edges, and channel labels appear on focus or hover before fading out. Provider playback and the new TV layout still need Fire Stick testing. The production baseline still needs full Fire Stick testing. TiviMate `.tmb` backup import is not yet supported.
 
 See the [releases](https://github.com/joerod/tvbud-downloads/releases) for downloads.
