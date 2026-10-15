@@ -21,19 +21,19 @@ Open **Settings → Playlists** or **Manage from browser** and select a source t
 2. **Xtream Codes:** enter the provider server URL, username, and password. TVBud imports live channels and uses the same account for Movies and Shows when the provider supports those catalogs.
 3. **Stalker/Ministra:** enter the portal URL and account MAC address. Live streams and provider guide data depend on the portal.
 
-You can add several playlists. They remain separate sources, and each can be removed individually. Large imports show progress and may take time on slower TVs.
+You can add several playlists. They remain separate sources, and each can be removed individually. Large imports show progress and may take time on slower TVs. After the first load, TVBud reuses a parsed channel index while the playlist file stays unchanged, so later launches avoid parsing the entire playlist again.
 
 ## Watch TV with the remote
 
 - Select a channel and press **OK/Select** to play it full screen.
 - While watching, press **Up/Down** to change channels within the current group or Favorites. The list wraps at either end.
-- Press **Left** while watching to open the guide on the playing channel’s group with channels focused. If the playing channel is in the visible rows, it receives focus and a colored highlight. Press **Left** again to move to the group list; use **Up/Down** there to browse groups. Opening the guide with **OK/Select** still follows the **Guide opens to** setting.
-- Press **OK/Select** while watching to open the guide. The half-screen guide leaves video visible; use **Expand guide** for the full guide. Press **Left** from categories to open the app section flyout.
+- Press **Left** while watching to open channel rows for the playing channel’s group. The playing channel receives focus and a colored highlight when visible. Press **Left** again to reveal and focus categories; press **Left** once more for Search, TV, Movies, Shows, Recordings, My List, and Settings. Opening the guide with **OK/Select** still follows the **Guide opens to** setting.
+- Press **OK/Select** while watching to open the guide. Choose full or half-screen guide under **Settings → Guide size**; the half-screen choice leaves video visible. Press **Left** from categories to open the app section flyout.
 - Use **Left/Right** to move among the section flyout, categories, channels, and EPG timeline. Use **Up/Down** within a list. **Back** moves to the previous panel or closes the overlay.
 - Open the watch **Menu** or use the remote **Info** key for playback options. Controls fade during idle playback.
 - Long-press a channel when supported to open its channel options.
 
-The guide opens on Favorites by default when any exist. Change this under **Settings → Guide opens to**. In **Settings → Guide size**, choose half or full screen. The guide time header stays visible while channel rows scroll; the blue current-time line appears in the channel timelines below the header.
+The guide opens on Favorites by default when any exist. Change this under **Settings → Guide opens to**. In **Settings → Guide size**, choose half or full screen. The guide time header stays visible while channel rows scroll; the blue current-time marker and minute label appear on that header.
 
 ## Favorites, groups, and search
 
@@ -49,7 +49,7 @@ Browser Manager has **Config**, **Groups & Channels**, and **Skins** tabs. Confi
 
 TVBud uses the provider guide first, then a custom XMLTV URL if configured, then enabled public fallback feeds for missing listings. It matches channel IDs and cleaned channel names. **No guide data** means none of those sources had a usable match for that channel and time; the app cannot invent a listing.
 
-Successful guide listings are saved locally and restored before the main screen opens on restart. The selected skin logo rotates while channels and the saved guide load. Set **Guide refresh** in TV Settings or Browser Manager Config to every **1, 3, 6, 12, or 24 hours**; six hours is the default. You can also refresh guide data manually from **Settings → Guide data**. If a favorite has no listings, add your provider's XMLTV URL to its playlist, then refresh the guide. Online fallback needs an internet connection.
+Successful guide listings are saved locally and restored before the main screen opens on restart. A compact local index loads visible channels at startup; channels in hidden groups remain in the full local index and load only when you open group management. The selected skin logo rotates inside a stationary TV frame while channels and the saved guide load. Set **Guide refresh** in TV Settings or Browser Manager Config to every **1, 3, 6, 12, or 24 hours**; six hours is the default. You can also refresh guide data manually from **Settings → Guide data**. If a favorite has no listings, add your provider's XMLTV URL to its playlist, then refresh the guide. Online fallback needs an internet connection.
 
 ## Movies, Shows, and multiview
 
