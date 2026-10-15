@@ -52,13 +52,13 @@ Successful guide listings are saved locally and restored on restart. Set **Guide
 
 ## Movies, Shows, and multiview
 
-**Movies** and **Shows** use saved Xtream account details when the provider supplies on-demand catalogs. They can take time to load and may be unavailable for M3U-only or Stalker sources. In the watch Menu, choose **Multiview** to select a layout and add channels to empty screens. Use direction keys to focus a tile and **OK** to switch its audio. The active tile has a blue line at its bottom. The app starts in single view by default; **Settings → Multiview startup** can restore extra screens. TV hardware may support fewer streams than a layout has slots.
+**Movies** and **Shows** use saved Xtream account details when the provider supplies on-demand catalogs. They can take time to load and may be unavailable for M3U-only or Stalker sources. In the watch Menu, choose **Multiview** to select a layout and add channels to empty screens. Use direction keys to focus a tile and **OK** to switch its audio. The active tile has a blue line at its bottom. Left from the leftmost tile or Up from the topmost tile focuses the watch Menu, where **Screens** can remove streams. Long-press **OK** on a playing tile to view it full screen; one **Back** returns to the same running multiview. The flexible layout has no fixed screen limit, but the app warns when a new stream exceeds its estimate of device capacity. The app starts in single view by default; **Settings → Multiview startup** can restore extra screens.
 
 ## Appearance and settings
 
 Open **Settings → Appearance & skins** to choose TVBud Classic or JoeRod. JoeRod uses the custom headshot TV logo and TV Guide art. In Browser Manager **Skins**, create or import a JSON skin, change colors, and upload separate images for the TV frame logo and TV Guide heading. The selected TV frame logo also appears on the loading screen.
 
-Other TV Settings include video buffer size, clock location, weather location and units, guide opening behavior, guide refresh, and About. Weather uses an approximate IP location unless you enter a five-digit US ZIP code. The clock and weather can appear in the top right or bottom channel information bar.
+Other TV Settings include video buffer size, clock location, weather location and units, guide opening behavior, guide refresh, and About. **About TVBud** shows the installed version and the “Made by JoeRod” credit. Weather uses an approximate IP location unless you enter a five-digit US ZIP code. The clock and weather can appear in the top right or bottom channel information bar.
 
 ## Troubleshooting
 
