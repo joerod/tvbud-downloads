@@ -37,7 +37,7 @@ The guide opens on Favorites by default when any exist. Change this under **Sett
 
 ## Favorites, groups, and search
 
-The TV guide groups channels by playlist category. Use **Search** in the left flyout to find a channel. Browser Manager offers a faster way to organize large lists: its **Groups & Channels** tab has **Favorites**, **Groups**, and **Channels** views. Expand a group to see its channels and mark specific ones as Favorites. Drag group or Favorite handles to reorder them; Up/Down controls are also available. Hiding a group hides its channels from ordinary group browsing, while saved Favorites can still appear in Favorites and My List. Hidden groups stay visible in Browser Manager so you can show them again.
+The TV guide groups channels by playlist category. Use **Search** in the left flyout to find live TV, movies, and shows. Select the microphone beside the search field to dictate with Google voice input on supported devices, or type your query. Results identify live channels, movies, and shows. Browser Manager offers a faster way to organize large lists: its **Groups & Channels** tab has **Favorites**, **Groups**, and **Channels** views. Expand a group to see its channels and mark specific ones as Favorites. Drag group or Favorite handles to reorder them; Up/Down controls are also available. Hiding a group hides its channels from ordinary group browsing, while saved Favorites can still appear in Favorites and My List. Hidden groups stay visible in Browser Manager so you can show them again.
 
 ## Connect Browser Manager
 
@@ -53,7 +53,7 @@ Successful guide listings are saved locally and restored before the main screen 
 
 ## Movies, Shows, and multiview
 
-**Movies** and **Shows** use saved Xtream account details when the provider supplies on-demand catalogs. They can take time to load and may be unavailable for M3U-only or Stalker sources. In the watch Menu, choose **Multiview** to select a layout and add channels to empty screens. Use direction keys to focus a tile and **OK** to switch its audio. The active tile has a blue line at its bottom. Left from the leftmost tile or Up from the topmost tile focuses the watch Menu, where **Screens** can remove streams. Long-press **OK** on a playing tile to view it full screen; one **Back** returns to the same running multiview. The flexible layout has no fixed screen limit, but the app warns when a new stream exceeds its estimate of device capacity. The app starts in single view by default; **Settings → Multiview startup** can restore extra screens.
+**Movies** and **Shows** use saved Xtream account details when the provider supplies on-demand catalogs. Saved titles are reused, and a loading message shows when the catalog is opening or updating. These sections may be unavailable for M3U-only or Stalker sources. In the watch Menu, choose **Multiview** to select a layout and add channels to empty screens. Use direction keys to focus a tile and **OK** to switch its audio. The active tile has a blue line at its bottom. Left from the leftmost tile or Up from the topmost tile focuses the watch Menu, where **Screens** can remove streams. Long-press **OK** on a playing tile to view it full screen; one **Back** returns to the same running multiview. The flexible layout has no fixed screen limit, but the app warns when a new stream exceeds its estimate of device capacity. The app starts in single view by default; **Settings → Multiview startup** can restore extra screens.
 
 ## Appearance and settings
 
