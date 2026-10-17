@@ -8,8 +8,8 @@ Use the permanent APK URL for the channel you want:
 
 | Channel | APK URL |
 | --- | --- |
-| Production | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-prod/TVBud-FireTV.apk |
-| Development | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-current-test/TVBud-FireTV.apk |
+| Production | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-prod/TVBud.apk |
+| Development | https://github.com/joerod/tvbud-downloads/releases/download/fire-tv-current-test/TVBud.apk |
 
 On Fire TV, enter a URL in Downloader, or create a reusable numeric Downloader code at https://go.aftvnews.com/. On Android TV, open the APK URL in a browser or sideload the APK. Install updates over the existing app to keep local settings. Check the installed version in **Settings → About TVBud**. Development receives features first; production is the more tested release.
 
