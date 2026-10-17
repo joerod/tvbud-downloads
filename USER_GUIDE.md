@@ -53,6 +53,10 @@ Successful guide listings are saved locally and restored before the main screen 
 
 ## Movies, Shows, and multiview
 
+While a movie or episode is playing, press **OK/Select** to pause or resume and show the playback controls. A large central Play/Pause button sits between circular **Back 10 seconds** and **Forward 10 seconds** buttons. Press Left/Right with the controls hidden to seek and focus the progress bar; further Left/Right presses move in 10-second steps, and OK confirms. The Fire TV remote's Play/Pause, Rewind, and Fast-forward buttons also work. Controls stay visible while paused, and **Start over** restarts the title. Use the top **Guide** button or the remote **Menu** key to browse again.
+
+TVBud remembers a separate position for each movie and episode on this device and resumes automatically when you reopen it, including after restarting the app. Progress saves on pause, seek, switching titles, leaving the app, and every 10 seconds during playback. Finishing a title clears its resume point. Seeking and resuming require a seekable provider stream.
+
 **Movies** and **Shows** use saved Xtream account details when the provider supplies on-demand catalogs. Saved titles are reused, and a loading message shows when the catalog is opening or updating. These sections may be unavailable for M3U-only or Stalker sources. In the watch Menu, choose **Multiview** to select a layout and add channels to empty screens. Use direction keys to focus a tile and **OK** to switch its audio. The active tile has a blue line at its bottom. Left from the leftmost tile or Up from the topmost tile focuses the watch Menu, where **Screens** can remove streams. Long-press **OK** on a playing tile to view it full screen; one **Back** returns to the same running multiview. The flexible layout has no fixed screen limit, but the app warns when a new stream exceeds its estimate of device capacity. The app starts in single view by default; **Settings → Multiview startup** can restore extra screens.
 
 ## Appearance and settings
